@@ -76,7 +76,7 @@ async def phone_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         context.user_data["awaiting_phone"] = False
 
 def main():
-    app = Application.builder().token("8033544252:AAGECAosAOlVDaYXyF4R2s7HBBIrUQwOQX4").build()
+    app = Application.builder().token("admin login bot fatherdan").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button_handler))
