@@ -2,7 +2,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
 # 🔒 Sizning admin Telegram ID (bot sizga buyurtma yuboradi)
-ADMIN_ID = 8033544252
+ADMIN_ID = "ID telegramdan"
 
 # 🛍️ Mahsulotlar qo'lda kiritiladi
 products = {
